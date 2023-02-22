@@ -1,0 +1,85 @@
+/* Nav Bar */
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #dfdfdd;
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+}
+
+.nav-left ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-left ul li {
+    margin-right:20px ;
+    font-size: 15px;
+}
+
+.nav-left ul li img {
+    width: 30px;
+}
+.nav-right{
+    text-align: end;
+    margin-right: 15px;
+}
+
+.nav-right a{
+    background-color: orangered;
+    padding: 5px 25px;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+/*Contact Form */
+
+form {
+    width: 350px;
+    margin: 50px auto;
+    padding: 10px;
+}
+
+form div{
+    margin-top: 10px;
+}
+
+label {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+input,select, textarea {
+    width: 100%;
+    background-color: #f4f4f1;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 15px;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+}
+textarea {
+    resize: none;
+}
+
+div button{
+    align-content: end;
+    text-align: end;
+}
+
+button {
+    color: white;
+    background-color: orangered;
+    padding: 10px 25px;
+    margin-top: 15px;
+    border-radius: 8px;
+    border-color: #dbdbdb;
+    cursor: pointer;
+}
