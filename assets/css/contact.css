@@ -1,0 +1,118 @@
+/* Nav Bar */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700;800&display=swap");
+
+* {
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgba(214, 214, 214, 0.398);
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    align-items: center;
+    height: 50vh;
+}
+
+/* Nav Bar */
+
+
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    padding: 20px 20px 20px 20px;
+}
+
+.nav-left ul{
+    display: flex;
+    list-style-type: none;
+
+}
+.nav-left ul li a{
+    color: black !important;
+}
+
+.nav-left ul li {
+    margin-right:20px ;
+    font-size: 20px;
+}
+
+.nav-left ul li img {
+    width: 40px;
+    margin-bottom: -7px;
+    margin-left: 40px;
+}
+.nav-right{
+    text-align: end;
+    margin-right: 15px;
+}
+
+.nav-right a{
+    background-color: black;
+    padding: 5px 25px;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+.nav-right a:hover {
+    background-color: orangered;
+}
+
+/*Contact Form */
+form {
+    width: 350px;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+form div{
+    margin-top: 10px;
+}
+
+label {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+form input,select, textarea {
+    width: 100%;
+    padding: 10px;
+    box-shadow: 0 5px 0 #0000000c;
+    margin-top: 5px;
+    font-size: 15px;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+}
+textarea {
+    resize: none;
+}
+
+.buttonSubmit {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+button {
+    color: white;
+    background-color: black;
+    padding: 10px 25px;
+    margin-top: 15px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: orangered;
+}
